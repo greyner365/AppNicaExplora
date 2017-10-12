@@ -35,7 +35,7 @@ public class TransporteActivity extends AppCompatActivity {
         rdtipo = (RadioGroup) findViewById(R.id.rdtipo);
 
 
-        btnguardar = (Button) findViewById(R.id.btnguardar);
+        btnguardar = (Button) findViewById(R.id.btnmodificar);
         btnlistar = (Button) findViewById(R.id.btnlistar);
 
         btnlistar.setOnClickListener(new View.OnClickListener() {
