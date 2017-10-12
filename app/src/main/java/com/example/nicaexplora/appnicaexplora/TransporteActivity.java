@@ -1,6 +1,7 @@
 package com.example.nicaexplora.appnicaexplora;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,7 +16,7 @@ public class TransporteActivity extends AppCompatActivity {
     EditText txtnombre,txtlugar,txttel,txthora,txtprecio;
     RadioButton rdrut, rdexpreso, rdnorte, rdsur;
     RadioGroup rdtipo;
-    Button btnguardar;
+    Button btnguardar,btnlistar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,14 @@ public class TransporteActivity extends AppCompatActivity {
 
 
         btnguardar = (Button) findViewById(R.id.btnguardar);
+        btnlistar = (Button) findViewById(R.id.btnlistar);
+
+        btnlistar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TransporteActivity.this, ListarTransporteActivity.class));
+            }
+        });
     }
 
 
