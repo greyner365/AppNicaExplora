@@ -16,18 +16,18 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        app:fab_labelStyle="@style/AppTheme"
+        app:fab_labelStyle="@style/AppNuevo"
         >
-            <com.getbase.floatingactionbutton.FloatingActionButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/multiple_actions"
-                android:id="@+id/action_a"
-                android:onClick="transporte"
-                app:fab_icon="@drawable/ic_subway"
-                app:fab_title="Transporte"
-                >
-            </com.getbase.floatingactionbutton.FloatingActionButton>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/multiple_actions"
+            android:onClick="transporte"
+            app:fab_icon="@drawable/bus"
+            app:fab_size="normal"
+            app:fab_title="Transporte"></com.getbase.floatingactionbutton.FloatingActionButton>
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 

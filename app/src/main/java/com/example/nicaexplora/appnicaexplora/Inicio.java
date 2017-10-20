@@ -23,6 +23,6 @@ public class Inicio extends AppCompatActivity {
             }
 
         //indicamos el tiempo de ejecucion
-        },2000);
+        },1500);
     }
 }
