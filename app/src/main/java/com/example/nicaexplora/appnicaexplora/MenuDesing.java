@@ -19,4 +19,9 @@ public class MenuDesing extends AppCompatActivity {
         Intent intent = new Intent(this,TransporteActivity.class);
         startActivity(intent);
     }
+
+    public void mapa(View v){
+        Intent intent = new Intent(this,MapsActivity.class);
+        startActivity(intent);
+    }
 }
