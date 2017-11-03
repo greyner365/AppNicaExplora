@@ -19,12 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MenuDesing" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MenuDesing" ></activity>
         <activity android:name=".TransporteActivity" />
         <activity android:name=".ListarTransporteActivity" />
         <activity android:name=".ActualizarTransporteActivity" />
